@@ -14,8 +14,8 @@ h1 {
 }
 
 img {
-    width: 150;
-    height: auto;
+    /* width: 150;
+    height: auto;*/
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -23,4 +23,44 @@ img {
 
 p {
     padding: 10px;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    /* Ancho del aside */
+    margin: 1rem;
+    /* Márgenes alrededor del aside */
+    border: 1px solid #ccc;
+    /* Borde sólido con color gris claro */
+    padding: 1rem;
+    /* Acolchado interno del aside */
+    background-color: #f0f0f0;
+    /* Color de fondo gris claro */
+    color: #333;
+    /* Color del texto dentro del aside */
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid#000;
+    text-align: center;
 }
