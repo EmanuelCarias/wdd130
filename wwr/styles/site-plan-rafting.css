@@ -1,0 +1,63 @@
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    /*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap')*/
+    
+     :root {
+        --primary-color: #003566;
+        --secondary-color: #000814;
+        --accent1-color: #FFD60A;
+        --accent2-color: #FFC300;
+        --heading-font: 'Noto Sans', sans-serif;
+        --paragraph-font: 'Oswald', sans-serif;
+        --nav-background-color: #FFD60A;
+        --nav-link-color: #000814;
+        --nav-hover-link-color: #FFC300;
+        --nav-hover-background-color: #001d3d;
+    }
+    
+    body {
+        font-family: var(--paragraph-font);
+        max-width: 960px;
+        padding: 20px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--heading-font);
+        color: var(--primary-color);
+    }
+    
+    header {
+        padding: 20px;
+        background-color: var(--accent1-color);
+    }
+    
+    p {
+        padding: 25px;
+    }
+    
+    nav {
+        background-color: var(--nav-background-color);
+        font-size: 1.2rem;
+        display: flex;
+    }
+    
+    nav a {
+        display: block;
+        color: var(--nav-hover-link-color);
+        text-decoration: none;
+        padding: 1rem;
+    }
+    
+    nav a:link,
+    nav a:visited {
+        color: var(--nav-link-color);
+    }
+    
+    nav a:hover {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color);
+    }
