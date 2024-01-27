@@ -1,0 +1,205 @@
+/* Importación de fuente desde Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&display=swap');
+
+/* Definición de variables de color */
+
+:root {
+    --primary-color: #003566;
+    --secondary-color: #000814;
+    --accent1-color: #FFD60A;
+    --accent2-color: #FFC300;
+    --heading-font: 'Noto Sans', sans-serif;
+    --paragraph-font: 'Oswald', sans-serif;
+    --nav-background-color: #FFD60A;
+    --nav-link-color: #000814;
+    --nav-hover-link-color: #FFC300;
+    --nav-hover-background-color: #001d3d;
+}
+
+
+/* Estilos generales */
+
+body {
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Limitar el ancho de la página */
+
+body {
+    font-family: var(--paragraph-font);
+    padding: 0;
+    max-width: 1400px;
+    /* Ajusta el valor según tus necesidades */
+    margin: 0 auto;
+    /* Centrar la página en la pantalla */
+}
+
+
+/* O si prefieres limitar solo el ancho del contenido principal (main) */
+
+main {
+    max-width: 1400px;
+    /* Ajusta el valor según tus necesidades */
+    margin: 0 auto;
+    /* Centrar la página en la pantalla */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+
+/* Aplicar estilos flexibles al menú de navegación */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    /* Eliminar los puntos de la lista */
+    padding: 0;
+    /* Eliminar el relleno predeterminado de la lista */
+}
+
+
+/* Estilo para cada elemento de la lista (cada enlace) */
+
+nav li {
+    margin-right: 10px;
+    /* Espaciado entre elementos de la lista */
+}
+
+
+/* Eliminar subrayados de enlaces de navegación */
+
+nav a {
+    text-decoration: none;
+}
+
+
+/* Contenedor de héroe */
+
+
+/* Estilo para el contenedor principal con posición relativa */
+
+.hero {
+    position: relative;
+}
+
+
+/* Estilo para la imagen del héroe dentro del contenedor */
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Estilo para el encabezado h1 posicionado absolutamente */
+
+
+/* Estilo para el encabezado h1 posicionado absolutamente */
+
+.hero h1 {
+    position: absolute;
+    top: 5%;
+    /* Ajusta según sea necesario */
+    left: 50%;
+    /* Ajusta según sea necesario */
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 214, 10, 0.7);
+    /* Color de fondo con opacidad */
+    padding: 10px;
+    /* Ajusta según sea necesario para el espacio interior */
+    color: #fff;
+    /* Color del texto */
+    font-size: 54px;
+    /* Ajusta según sea necesario para el tamaño del texto */
+    width: 100%;
+    /* Hace que el fondo cubra todo el ancho del contenedor */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+}
+
+
+/* Estilo para el artículo posicionado absolutamente */
+
+.hero article {
+    position: absolute;
+    top: 60%;
+    /* Ajusta según sea necesario */
+    left: 50%;
+    /* Ajusta según sea necesario */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 53, 102, 0.7);
+    ;
+    /* Azul con transparencia */
+    ;
+    /* Color de fondo con opacidad */
+    padding: 10px;
+    /* Ajusta según sea necesario para el espacio interior */
+    width: 70%;
+    /* Ajusta según sea necesario */
+    color: #fff;
+}
+
+
+/* Estilo para el párrafo dentro del artículo */
+
+.hero article p {
+    float: left;
+    width: 50%;
+    /* Ajusta según sea necesario para el espacio entre el texto y la imagen */
+}
+
+
+/* Estilo para la imagen dentro del artículo flotando a la derecha */
+
+.hero article img {
+    float: right;
+    width: 30%;
+    /* Ajusta según sea necesario para el tamaño de la imagen */
+}
+
+
+/* Estilo para la sección "Adventure Awaits You!" */
+
+section {
+    display: flex;
+    flex-direction: column;
+    /* Asegura que los elementos estén dispuestos en una columna */
+    /*align-items: center;*/
+    /* Centra los elementos horizontalmente */
+    /*text-align: center;*/
+    /* Centra el texto horizontalmente */
+}
+
+
+/* Estilo para las imágenes dentro de la sección */
+
+section img {
+    width: 100%;
+    /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    max-width: 400px;
+    /* Establece un ancho máximo para las imágenes */
+    margin-bottom: 10px;
+    /* Espacio entre las imágenes */
+}
