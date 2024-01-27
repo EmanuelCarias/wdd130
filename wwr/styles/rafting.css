@@ -197,9 +197,9 @@ section {
 
 section img {
     width: 100%;
-    /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    /* Sets a maximum width for the images */
     max-width: 400px;
     /* Establece un ancho máximo para las imágenes */
     margin-bottom: 10px;
-    /* Espacio entre las imágenes */
+    /* Space between images */
 }
