@@ -46,8 +46,10 @@ p {
 }
 
 main {
-    grid-column: 3/6;
+    /*display: grid;*/
+    /*align-items: center;*/
     margin: 1rem;
+    grid-column: 3/6;
 }
 
 aside {
