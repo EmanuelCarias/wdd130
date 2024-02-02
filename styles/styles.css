@@ -30,6 +30,7 @@ h1 {
     color: steelblue;
     padding: 0.5rem;
     border-bottom: 1px solid black;
+    margin-bottom: 20px;
 }
 
 img {
@@ -69,7 +70,7 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
