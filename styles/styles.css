@@ -1,125 +1,131 @@
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
- 
- body {
-     font-size: 16px;
-     font-family: Roboto, Arial, sans-serif;
- }
- 
- nav {
-     background-color: steelblue;
-     padding: 10px;
-     display: flex;
-     justify-content: space-evenly;
-     align-items: center;
- }
- 
- nav a {
-     color: white;
-     display: block;
-     padding: 20px;
-     text-decoration: none;
-     font-size: 18px;
-     font-weight: 700;
- }
- 
- h1 {
-     color: steelblue;
-     padding: 0.5rem;
-     border-bottom: 1px solid black;
- }
- 
- img {
-     /* width: 150;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h1 {
+    color: steelblue;
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+img {
+    /* width: 150;
             height: auto;*/
-     border: 1px solid steelblue;
-     padding: 2px;
-     box-shadow: 0 0 30px gray;
- }
- 
- p {
-     padding: 10px;
- }
- 
- main {
-     grid-column: 2/3;
-     margin: 1rem;
- }
- 
- aside {
-     width: 20rem;
-     /* Ancho del aside */
-     /*margin: 1rem;*/
-     /* Márgenes alrededor del aside */
-     /*border: 1px solid #ccc;*/
-     /* Borde sólido con color gris claro */
-     /*padding: 1rem;*/
-     /* Acolchado interno del aside */
-     /*background-color: #f0f0f0;*/
-     /* Color de fondo gris claro */
-     /*color: #333;*/
-     /* Color del texto dentro del aside */
-     text-align: center;
-     position: relative;
-     grid-column: 1/2;
-     grid-row: 1/2;
- }
- 
- aside img {
-     width: 200px;
-     height: auto;
- }
- 
- aside h2 {
-     position: absolute;
-     top: 25px;
-     left: 190px;
-     color: white;
- }
- 
- main img {
-     width: 150px;
-     height: auto;
-     float: right;
-     margin: 0 0 1rem 1rem;
- }
- 
- p {
-     padding: 1rem;
- }
- 
- footer {
-     margin-top: 15px;
-     border-top: 1px solid#000;
-     text-align: center;
- }
- /*Class Selectors*/
- 
- .box {
-     margin: 1rem;
-     border: 1px solid rgba(0, 0, 0, .1);
-     padding: 1rem;
-     background-color: #ddd;
-     color: #000;
- }
- 
- .ident {
-     padding-left: 2rem;
- }
- 
- header,
- footer,
- .grid {
-     /* Aplica estilos comunes a header, footer y .grid */
-     background-color: #f0f0f0;
-     /* Ejemplo de fondo */
-     padding: 20px;
-     /* Ejemplo de relleno */
-     display: grid;
-     align-items: center;
-     max-width: 840px;
-     margin: 0 auto;
- }
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
+
+main {
+    grid-column: 3/6;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    /* Ancho del aside */
+    /*margin: 1rem;*/
+    /* Márgenes alrededor del aside */
+    /*border: 1px solid #ccc;*/
+    /* Borde sólido con color gris claro */
+    /*padding: 1rem;*/
+    /* Acolchado interno del aside */
+    /*background-color: #f0f0f0;*/
+    /* Color de fondo gris claro */
+    /*color: #333;*/
+    /* Color del texto dentro del aside */
+    text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 25px;
+    left: 190px;
+    color: white;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+p {
+    padding: 1rem;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid#000;
+    text-align: center;
+}
+
+
+/*Class Selectors*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.ident {
+    padding-left: 2rem;
+}
+
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+header,
+footer,
+.grid {
+    margin: 0 auto;
+    max-width: 840px;
+}
