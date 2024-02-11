@@ -355,7 +355,7 @@ div.contact-container {
 }
 
 .employee-profiles {
-    justify-content: space-around;
+    justify-content: left;
 }
 
 form {
