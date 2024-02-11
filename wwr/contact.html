@@ -1,0 +1,142 @@
+<!-- Last modified: January 26, 2024 -->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emanuel Carias | Contact Us 💻✉🎉</title>
+    <meta name="description" content="This page was created so that our customers can contact us in an easy and simple way 💻✉🎉..">
+    <meta name="author" content="Emanuel Caria">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <header>
+        <!-- Logo in the "images" folder -->
+        <img class="logo" src="images/logo.png" alt="Your Rafting Logo">
+
+        <!-- Navigation with four pages -->
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Container div con clase "hero" -->
+        <div class="hero">
+            <!-- Hero image in the entire background of the div -->
+            <img src="images/river-wide.jpeg" alt="Hero Background Image">
+
+            <!-- Company title in an h1 -->
+            <h1>Contact Us</h1>
+        </div>
+    </main>
+    <div class="contact-container">
+        <!-- Employee profiles and user comment form section -->
+        <section class="contact-section">
+            <!-- Employee profiles -->
+            <h2>Meet Our Happy-Looking Employees</h2>
+            <section class="employee-profiles">
+                <div class="employee-profile">
+                    <img src="employee1.jpg" alt="Employee 1">
+                    <h3>Employee 1</h3>
+                    <p>Employee 1's job title</p>
+                </div>
+                <div class="employee-profile">
+                    <img src="employee2.jpg" alt="Employee 2">
+                    <h3>Employee 2</h3>
+                    <p>Employee 2's job title</p>
+                </div>
+                <div class="employee-profile">
+                    <img src="employee3.jpg" alt="Employee 3">
+                    <h3>Employee 3</h3>
+                    <p>Employee 3's job title</p>
+                </div>
+            </section>
+            <!--<h2>Leave a Message</h2>-->
+            <!-- User comment form -->
+            <section class="user-comment-form">
+                <!-- Form content -->
+                <form>
+                    <fieldset>
+                        <legend>
+                            <h2>Leave a Message</h2>
+                        </legend>
+                        <div class="form-item column2">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-item column2">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <fieldset>
+                            <legend>Purpose of Message:</legend>
+                            <div class="form-item column1">
+                                <label for="general">General Inquiry</label>
+                                <input type="radio" id="general" name="purpose" value="general" required>
+                            </div>
+                            <div class="form-item column1">
+                                <label for="reservation">Reservation Question</label>
+                                <input type="radio" id="reservation" name="purpose" value="reservation">
+                            </div>
+                            <div class="form-item column1">
+                                <label for="suggestion">Website Suggestion</label>
+                                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            </div>
+                        </fieldset>
+                        <label class="send-poll" for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <div class="form-item column1">
+                            <label for="subscribe">Subscribe to the monthly newsletter:</label>
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                        </div>
+                    </fieldset>
+                    <div class="send-poll">
+                        <div class="send-poll"><button type="submit">Send form</button></div>
+                    </div>
+                </form>
+            </section>
+        </section>
+        <!-- Company contact information section -->
+        <section class="contact-info">
+            <!-- Company contact information -->
+            <article>
+                <h2>Contact Information</h2>
+                <address>
+                    <p>123 Rafting Street</p>
+                    <p>City, State, ZIP</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: <a href="#">info@example.com</a></p>
+                </address>
+                <div class="map">
+                    <!-- Google Maps embedded iframe -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13423.456213680435!2d-122.4066811636531!3d37.78583578908765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858089bf6e6e2b%3A0x17d98d9e2a6576cf!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1645501812553!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <footer class="footer-1">
+        <div class="footer-content">
+            <p></p>
+            <p>&copy; 2024 ⚓Whitewater Rafting 🌊| 🧙‍♂️ Emanuel Carias</p>
+            <!-- Three social network icons with links -->
+            <div class="social-icons">
+                <a class="class-icons" href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                <a class="class-icons" href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                <a class="class-icons" href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
