@@ -223,6 +223,7 @@ section {
 }
 
 section h2 {
+    position: absolute;
     margin-bottom: 15px;
     /* Espacio adicional debajo del título */
     position: absolute;
