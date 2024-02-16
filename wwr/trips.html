@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- Last modified: January 26, 2024 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emanuel Carias | Trips 💻</title>
+    <meta name="description" content="Discover exciting rafting adventures with our company. Explore our exciting rafting trips and packages in different parts of the world. 💻✉🎉..">
+    <meta name="author" content="Emanuel Caria">
+    <link rel="stylesheet" href="styles/trips.css">
+</head>
+
+<body>
+    <header>
+        <!-- Logo in the "images" folder -->
+        <!-- Navigation with four pages -->
+        <nav>
+            <ul class="navigation">
+                <li><img class="logo" src="images/logo-removebg-preview.png" alt="Your Rafting Logo"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- Carrusel de imágenes -->
+    <div class="carousel">
+        <img class="active" src="images/river-wide.jpeg" alt="Imagen 1">
+        <img src="images/happy_client.jpg" alt="Imagen 2">
+        <img src="images/happy_client-4.jpg" alt="Imagen 3">
+
+        <!-- Contenido sobre las imágenes -->
+        <div class="carousel-content">
+            <h1>Discover thrilling rafting adventures</h1>
+            <p>Welcome to our travel page! Here you will find exciting rafting packages all over the world.</p>
+            <!-- Llamada a la acción -->
+            <button onclick="window.location.href='contact.html'">Contact us</button>
+        </div>
+    </div>
+    <div class="contact-container">
+        <main>
+            <div class="row">
+                <div class="more">
+                    <!-- Descripciones detalladas de viaje -->
+                    <div class="trip-description">
+                        <img src="images/happy_client-2.jpg" alt="Rafting en Perú">
+                        <h2>Rafting en Perú</h2>
+                        <p>Experimenta la emoción del rafting en las aguas salvajes de Perú. Nuestro paquete incluye...</p>
+                    </div>
+
+                    <div class="trip-description">
+                        <img src="images/happy_client-3.jpg" alt="Experiencia del Río Salmón">
+                        <h2>Experiencia del Río Salmón</h2>
+                        <p>Embárcate en una aventura inolvidable por el Río Salmón. Nuestro paquete incluye...</p>
+                    </div>
+
+                    <div class="trip-description">
+                        <img src="images/rafting-image-1.webp" alt="Exploradores del Río Nilo">
+                        <h2>Exploradores del Río Nilo</h2>
+                        <p>Descubre los secretos del antiguo río Nilo mientras disfrutas del rafting. Nuestro paquete incluye...</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="table-container">
+                <!-- Tabla de viajes disponibles -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Destino</th>
+                            <th>Duración</th>
+                            <th>Nivel de Dificultad</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Perú</td>
+                            <td>5 días</td>
+                            <td>Alto</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>Río Salmón</td>
+                            <td>3 días</td>
+                            <td>Medio</td>
+                            <td>$800</td>
+                        </tr>
+                        <tr>
+                            <td>Río Nilo</td>
+                            <td>7 días</td>
+                            <td>Alto</td>
+                            <td>$1500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="footer-1">
+        <div class="footer-content">
+            <p></p>
+            <p>&copy; 2024 ⚓Whitewater Rafting 🌊| 🧙‍♂️ Emanuel Carias</p>
+            <!-- Three social network icons with links -->
+            <div class="social-icons">
+                <a class="class-icons" href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                <a class="class-icons" href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                <a class="class-icons" href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Script para controlar el carrusel
+        let currentImageIndex = 0;
+        const images = document.querySelectorAll('.carousel img');
+        const totalImages = images.length;
+
+        setInterval(() => {
+            images[currentImageIndex].classList.remove('active');
+            currentImageIndex = (currentImageIndex + 1) % totalImages;
+            images[currentImageIndex].classList.add('active');
+        }, 5000); // Cambia la imagen cada 5 segundos
+    </script>
+</body>
+
+</html>
