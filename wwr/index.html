@@ -1,64 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+<!-- Last modified: febrary 20, 2024 -->
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Experience thrilling white water rafting adventures with our expert guides. Sign up for our newsletter and explore our exciting trips today!">
-    <title>White Water Rafting Adventures</title>
-    <link rel="stylesheet" href="rafting.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emanuel Carias | Home 💻</title>
+    <meta name="description" content="This is a website where you can find the best adventures to live💻✉🎉..">
+    <meta name="author" content="Emanuel Caria">
+    <link rel="stylesheet" href="styles/home.css">
 </head>
 
 <body>
     <header>
+        <!-- Logo in the "images" folder -->
         <nav>
-            <ul>
+            <ul class="navigation">
+                <li><img class="logo" src="images/logo-removebg-preview.png" alt="Your Rafting Logo"></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
         <section class="hero">
-            <img src="images/rafting-hero.jpg" alt="White Water Rafting">
+            <img src="images/happy_client.jpg" alt="White Water Rafting">
             <h1>Experience the Thrill of White Water Rafting</h1>
         </section>
 
         <section class="newsletter">
-            <h2>Sign Up for Our Newsletter</h2>
-            <form>
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <button type="submit">Subscribe</button>
-            </form>
-        </section>
-
-        <section class="cta">
-            <h2>Ready for an Adventure?</h2>
-            <p>Explore our thrilling rafting trips today!</p>
-            <a href="trips.html" class="btn">View Trips</a>
-        </section>
-
-        <section class="grid">
-            <div class="grid-item">
-                <img src="images/rafting-1.jpg" alt="Rafting Trip">
-                <h3>Expert Guides</h3>
-                <p>Our expert guides will ensure your safety and make your adventure unforgettable.</p>
+            <div class="container">
+                <h2>Subscribe to our newsletter!</h2>
+                <form id="newsletter-form">
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <button type="submit">Subscribe</button>
+                </form>
             </div>
-            <div class="grid-item">
-                <img src="images/rafting-2.jpg" alt="Rafting Equipment">
-                <h3>Quality Equipment</h3>
-                <p>We provide top-of-the-line rafting equipment to make your experience comfortable and enjoyable.</p>
+        </section>
+
+        <section class="call-to-action">
+            <div class="container">
+                <h2>Ready for an adventure?</h2>
+                <a href="trips.html" class="btn">Explore our trips</a>
+            </div>
+        </section>
+
+        <section class="grid-layout">
+            <div class="container">
+                <div class="grid-item">
+                    <img src="images/happy_client-2.jpg" alt="Rafting">
+                    <h3>Unique Experience</h3>
+                    <p>Discover the thrill of navigating the most challenging rapids in the world.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/happy_client-3.jpg" alt="Rafting">
+                    <h3>Guaranteed Adventure</h3>
+                    <p>Our expert guides will take you on an unforgettable and safe experience.</p>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 White Water Rafting Adventures</p>
-        <a href="wireframe-home.jpg">View Home Page Wireframe</a>
+    <footer class="footer-1">
+        <div class="footer-content">
+            <p></p>
+            <p>&copy; 2024 ⚓Whitewater Rafting 🌊| 🧙‍♂️ Emanuel Carias</p>
+            <!-- Three social network icons with links -->
+            <div class="social-icons">
+                <a href="wireframe-home.jpg">View Home Page Wireframe</a>
+                <a class="class-icons" href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                <a class="class-icons" href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                <a class="class-icons" href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
     </footer>
 </body>
 
