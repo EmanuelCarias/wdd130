@@ -224,7 +224,7 @@ section h2 {
     margin-bottom: 15px;
     /* Espacio adicional debajo del título */
     position: absolute;
-    top: 565px;
+    top: 485px;
     left: 885px;
     color: #fff;
     /* Ajusta según sea necesario */
@@ -261,8 +261,8 @@ section h2 {
     margin-bottom: 15px;
     /* Espacio adicional debajo del título */
     position: absolute;
-    top: 565px;
-    left: 885px;
+    top: 495px;
+    left: 920px;
     color: #fff;
     /* Ajusta según sea necesario */
     transform: translate(-40%, 50%);
@@ -358,4 +358,21 @@ figcaption {
     /* Ajusta el tamaño según tus necesidades */
     height: auto;
     vertical-align: middle;
+}
+
+
+/* Estilos responsivos */
+
+@media (max-width: 1068px) {
+    h2 {
+        font-size: 20px;
+        top: 495px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+    }
 }
